@@ -1,0 +1,523 @@
+#
+# SandWands sand.yml v3.0
+#
+
+# The list of blocks that will be broken by the sand wands.
+# Make sure that you enter the correct minecraft name of an item.
+# See this link for more information about names: https://minecraft-ids.grahamedgecombe.com/
+whitelisted-block-list:
+- sand
+- red_sand
+- gravel
+
+# -------------------------------------------------------------
+# Start configuration for sand-wand-1
+#
+sand-wand-1:
+  # The name of the tool given to the player.
+  name: "&c&lSAND WAND &7(&4Tier 1&7)"
+  #
+  # IMPORTANT: Make sure this is located in the Lore section of this configuration.
+  # And make sure it is unique to the tier 1 tools, this will tell the plugin what it is looking for.
+  unique: "&eDemolish I"
+  #
+  # If the command specifies infinite uses this will replace the %uses% section.
+  infinite-use-id: "INFINITE"
+  #
+  # this + the uses-id will replace the line in the lore when the player uses the tool.
+  uses-line-id: "&6&lUSES:"
+  uses-id: "&e&l%uses%"
+  #
+  # the Y level at which the plugin should mine down to.
+  lowest-break-level: 1
+  #
+  # Cooldown for the tool in seconds, set it to -1 to disable the cooldown.
+  cooldown: 9
+  #
+  # Enchantments that will be applied to the tool with the /sw give command
+  # IMPORTANT: make sure to use these enchantment names https://docs.oc.tc/reference/enchantments (vanilla names may not work!).
+  # Syntax: NAME-LEVEL
+  enchantments:
+  - DURABILITY-3
+  - FIRE_ASPECT-5
+  #
+  # Enchantment Lore, you can make this as many lines as you would like.
+  # In v3.0 you can put the %uses% placeholder anywhere in the lore (must be after the 'uses-line-id').
+  lore:
+  - "&eDemolish I"
+  - "&7 "
+  - "&6&lUSES: &e&l%uses%"
+  - "&7 "
+  - "&7&oThis wand was manufactured to"
+  - "&7&oremove sand stacks, use it wisely..."
+  - "&7 "
+  - "&7&lCOOLDOWN: &f&l9 Seconds"
+#
+
+#
+# The following configuration is for the item displayed in the GUI menu.
+# This item will not be given to the player, the sand-wand-1 item will be given.
+sand-wand-1-gui:
+  name: "&c&lSAND WAND &7(&4Tier 1&7)"
+  unique: "&eDemolish I"
+  # The number of uses the tool will come with from the GUI.
+  uses: 1000
+  # If this item will be in the GUI.
+  enabled: true
+  enchantments:
+  - DURABILITY-3
+  - FIRE_ASPECT-5
+  lore:
+  - "&eDemolish I"
+  - "&7 "
+  - "&6&lUSES: &e&l%uses%"
+  - "&7 "
+  - "&7&oThis wand was manufactured to"
+  - "&7&oremove sand stacks, use it wisely..."
+  - "&7 "
+  - "&7&lCOOLDOWN: &f&l9 Seconds"
+  - "&7 "
+  - "&7&m---------------------------------"
+  - "&a&lBUY PRICE: &f$1,000,000"
+  - "&7&m---------------------------------"
+  # The actual item in the gui (this is the item that will be given to the player).
+  gui-item: bone
+  # The slot in the GUI that this item will be.
+  gui-slot: 9
+  # The price of the wand, this will be taken from the players account.
+  price: 1000000
+#
+# End configuration for sand-wand-1
+# -------------------------------------------------------------
+
+# -------------------------------------------------------------
+# Start configuration for sand-wand-2
+#
+sand-wand-2:
+  name: "&c&lSAND WAND &7(&4Tier 2&7)"
+  unique: "&eDemolish II"
+  infinite-use-id: "INFINITE"
+  uses-line-id: "&6&lUSES:"
+  uses-id: "&e&l%uses%"
+  lowest-break-level: 1
+  cooldown: 8
+  enchantments:
+  - DURABILITY-3
+  - FIRE_ASPECT-5
+  lore:
+  - "&eDemolish II"
+  - "&7 "
+  - "&6&lUSES: &e&l%uses%"
+  - "&7 "
+  - "&7&oThis wand was manufactured to"
+  - "&7&oremove sand stacks, use it wisely..."
+  - "&7 "
+  - "&7&lCOOLDOWN: &f&l8 Seconds"
+#
+
+#
+sand-wand-2-gui:
+  name: "&c&lSAND WAND &7(&4Tier 2&7)"
+  unique: "&eDemolish II"
+  uses: 2000
+  enabled: true
+  enchantments:
+  - DURABILITY-3
+  - FIRE_ASPECT-5
+  lore:
+  - "&eDemolish II"
+  - "&7 "
+  - "&6&lUSES: &e&l%uses%"
+  - "&7 "
+  - "&7&oThis wand was manufactured to"
+  - "&7&oremove sand stacks, use it wisely..."
+  - "&7 "
+  - "&7&lCOOLDOWN: &f&l8 Seconds"
+  - "&7 "
+  - "&7&m---------------------------------"
+  - "&a&lBUY PRICE: &f$2,000,000"
+  - "&7&m---------------------------------"
+  gui-item: bone
+  gui-slot: 10
+  price: 2000000
+#
+# End configuration for sand-wand-2
+# -------------------------------------------------------------
+
+# -------------------------------------------------------------
+# Start configuration for sand-wand-3
+#
+sand-wand-3:
+  name: "&c&lSAND WAND &7(&4Tier 3&7)"
+  unique: "&eDemolish III"
+  infinite-use-id: "INFINITE"
+  uses-line-id: "&6&lUSES:"
+  uses-id: "&e&l%uses%"
+  lowest-break-level: 1
+  cooldown: 7
+  enchantments:
+  - DURABILITY-3
+  - FIRE_ASPECT-5
+  lore:
+  - "&eDemolish III"
+  - "&7 "
+  - "&6&lUSES: &e&l%uses%"
+  - "&7 "
+  - "&7&oThis wand was manufactured to"
+  - "&7&oremove sand stacks, use it wisely..."
+  - "&7 "
+  - "&7&lCOOLDOWN: &f&l7 Seconds"
+#
+
+#
+sand-wand-3-gui:
+  name: "&c&lSAND WAND &7(&4Tier 3&7)"
+  unique: "&eDemolish III"
+  uses: 3000
+  enabled: true
+  enchantments:
+  - DURABILITY-3
+  - FIRE_ASPECT-5
+  lore:
+  - "&eDemolish III"
+  - "&7 "
+  - "&6&lUSES: &e&l%uses%"
+  - "&7 "
+  - "&7&oThis wand was manufactured to"
+  - "&7&oremove sand stacks, use it wisely..."
+  - "&7 "
+  - "&7&lCOOLDOWN: &f&l7 Seconds"
+  - "&7 "
+  - "&7&m---------------------------------"
+  - "&a&lBUY PRICE: &f$3,000,000"
+  - "&7&m---------------------------------"
+  gui-item: bone
+  gui-slot: 11
+  price: 3000000
+#
+# End configuration for sand-wand-3
+# -------------------------------------------------------------
+
+# -------------------------------------------------------------
+# Start configuration for sand-wand-4
+#
+sand-wand-4:
+  name: "&c&lSAND WAND &7(&4Tier 4&7)"
+  unique: "&eDemolish IV"
+  infinite-use-id: "INFINITE"
+  uses-line-id: "&6&lUSES:"
+  uses-id: "&e&l%uses%"
+  lowest-break-level: 1
+  cooldown: 6
+  enchantments:
+  - DURABILITY-3
+  - FIRE_ASPECT-5
+  lore:
+  - "&eDemolish IV"
+  - "&7 "
+  - "&6&lUSES: &e&l%uses%"
+  - "&7 "
+  - "&7&oThis wand was manufactured to"
+  - "&7&oremove sand stacks, use it wisely..."
+  - "&7 "
+  - "&7&lCOOLDOWN: &f&l6 Seconds"
+#
+
+#
+sand-wand-4-gui:
+  name: "&c&lSAND WAND &7(&4Tier 4&7)"
+  unique: "&eDemolish IV"
+  uses: 4000
+  enabled: true
+  enchantments:
+  - DURABILITY-3
+  - FIRE_ASPECT-5
+  lore:
+  - "&eDemolish IV"
+  - "&7 "
+  - "&6&lUSES: &e&l%uses%"
+  - "&7 "
+  - "&7&oThis wand was manufactured to"
+  - "&7&oremove sand stacks, use it wisely..."
+  - "&7 "
+  - "&7&lCOOLDOWN: &f&l6 Seconds"
+  - "&7 "
+  - "&7&m---------------------------------"
+  - "&a&lBUY PRICE: &f$4,000,000"
+  - "&7&m---------------------------------"
+  gui-item: bone
+  gui-slot: 12
+  price: 4000000
+#
+# End configuration for sand-wand-4
+# -------------------------------------------------------------
+
+# -------------------------------------------------------------
+# Start configuration for sand-wand-5
+#
+sand-wand-5:
+  name: "&c&lSAND WAND &7(&4Tier 5&7)"
+  unique: "&eDemolish V"
+  infinite-use-id: "INFINITE"
+  uses-line-id: "&6&lUSES:"
+  uses-id: "&e&l%uses%"
+  lowest-break-level: 1
+  cooldown: 5
+  enchantments:
+  - DURABILITY-3
+  - FIRE_ASPECT-5
+  lore:
+  - "&eDemolish V"
+  - "&7 "
+  - "&6&lUSES: &e&l%uses%"
+  - "&7 "
+  - "&7&oThis wand was manufactured to"
+  - "&7&oremove sand stacks, use it wisely..."
+  - "&7 "
+  - "&7&lCOOLDOWN: &f&l5 Seconds"
+#
+
+#
+sand-wand-5-gui:
+  name: "&c&lSAND WAND &7(&4Tier 5&7)"
+  unique: "&eDemolish V"
+  uses: 5000
+  enabled: true
+  enchantments:
+  - DURABILITY-3
+  - FIRE_ASPECT-5
+  lore:
+  - "&eDemolish V"
+  - "&7 "
+  - "&6&lUSES: &e&l%uses%"
+  - "&7 "
+  - "&7&oThis wand was manufactured to"
+  - "&7&oremove sand stacks, use it wisely..."
+  - "&7 "
+  - "&7&lCOOLDOWN: &f&l5 Seconds"
+  - "&7 "
+  - "&7&m---------------------------------"
+  - "&a&lBUY PRICE: &f$5,000,000"
+  - "&7&m---------------------------------"
+  gui-item: bone
+  gui-slot: 13
+  price: 5000000
+#
+# End configuration for sand-wand-5
+# -------------------------------------------------------------
+
+# -------------------------------------------------------------
+# Start configuration for sand-wand-6
+#
+sand-wand-6:
+  name: "&c&lSAND WAND &7(&4Tier 6&7)"
+  unique: "&eDemolish VI"
+  infinite-use-id: "INFINITE"
+  uses-line-id: "&6&lUSES:"
+  uses-id: "&e&l%uses%"
+  lowest-break-level: 1
+  cooldown: 4
+  enchantments:
+  - DURABILITY-3
+  - FIRE_ASPECT-5
+  lore:
+  - "&eDemolish VI"
+  - "&7 "
+  - "&6&lUSES: &e&l%uses%"
+  - "&7 "
+  - "&7&oThis wand was manufactured to"
+  - "&7&oremove sand stacks, use it wisely..."
+  - "&7 "
+  - "&7&lCOOLDOWN: &f&l4 Seconds"
+#
+
+#
+sand-wand-6-gui:
+  name: "&c&lSAND WAND &7(&4Tier 6&7)"
+  unique: "&eDemolish VI"
+  uses: 6000
+  enabled: true
+  enchantments:
+  - DURABILITY-3
+  - FIRE_ASPECT-5
+  lore:
+  - "&eDemolish VI"
+  - "&7 "
+  - "&6&lUSES: &e&l%uses%"
+  - "&7 "
+  - "&7&oThis wand was manufactured to"
+  - "&7&oremove sand stacks, use it wisely..."
+  - "&7 "
+  - "&7&lCOOLDOWN: &f&l4 Seconds"
+  - "&7 "
+  - "&7&m---------------------------------"
+  - "&a&lBUY PRICE: &f$6,000,000"
+  - "&7&m---------------------------------"
+  gui-item: bone
+  gui-slot: 14
+  price: 6000000
+#
+# End configuration for sand-wand-6
+# -------------------------------------------------------------
+
+# -------------------------------------------------------------
+# Start configuration for sand-wand-7
+#
+sand-wand-7:
+  name: "&c&lSAND WAND &7(&4Tier 7&7)"
+  unique: "&eDemolish VII"
+  infinite-use-id: "INFINITE"
+  uses-line-id: "&6&lUSES:"
+  uses-id: "&e&l%uses%"
+  lowest-break-level: 1
+  cooldown: 3
+  enchantments:
+  - DURABILITY-3
+  - FIRE_ASPECT-5
+  lore:
+  - "&eDemolish VII"
+  - "&7 "
+  - "&6&lUSES: &e&l%uses%"
+  - "&7 "
+  - "&7&oThis wand was manufactured to"
+  - "&7&oremove sand stacks, use it wisely..."
+  - "&7 "
+  - "&7&lCOOLDOWN: &f&l3 Seconds"
+#
+
+#
+sand-wand-7-gui:
+  name: "&c&lSAND WAND &7(&4Tier 7&7)"
+  unique: "&eDemolish VII"
+  uses: 7000
+  enabled: true
+  enchantments:
+  - DURABILITY-3
+  - FIRE_ASPECT-5
+  lore:
+  - "&eDemolish VII"
+  - "&7 "
+  - "&6&lUSES: &e&l%uses%"
+  - "&7 "
+  - "&7&oThis wand was manufactured to"
+  - "&7&oremove sand stacks, use it wisely..."
+  - "&7 "
+  - "&7&lCOOLDOWN: &f&l3 Seconds"
+  - "&7 "
+  - "&7&m---------------------------------"
+  - "&a&lBUY PRICE: &f$7,000,000"
+  - "&7&m---------------------------------"
+  gui-item: bone
+  gui-slot: 15
+  price: 7000000
+#
+# End configuration for sand-wand-7
+# -------------------------------------------------------------
+
+# -------------------------------------------------------------
+# Start configuration for sand-wand-8
+#
+sand-wand-8:
+  name: "&c&lSAND WAND &7(&4Tier 8&7)"
+  unique: "&eDemolish VIII"
+  infinite-use-id: "INFINITE"
+  uses-line-id: "&6&lUSES:"
+  uses-id: "&e&l%uses%"
+  lowest-break-level: 1
+  cooldown: 2
+  enchantments:
+  - DURABILITY-3
+  - FIRE_ASPECT-5
+  lore:
+  - "&eDemolish VIII"
+  - "&7 "
+  - "&6&lUSES: &e&l%uses%"
+  - "&7 "
+  - "&7&oThis wand was manufactured to"
+  - "&7&oremove sand stacks, use it wisely..."
+  - "&7 "
+  - "&7&lCOOLDOWN: &f&l2 Seconds"
+#
+
+#
+sand-wand-8-gui:
+  name: "&c&lSAND WAND &7(&4Tier 8&7)"
+  unique: "&eDemolish VIII"
+  uses: 8000
+  enabled: true
+  enchantments:
+  - DURABILITY-3
+  - FIRE_ASPECT-5
+  lore:
+  - "&eDemolish VIII"
+  - "&7 "
+  - "&6&lUSES: &e&l%uses%"
+  - "&7 "
+  - "&7&oThis wand was manufactured to"
+  - "&7&oremove sand stacks, use it wisely..."
+  - "&7 "
+  - "&7&lCOOLDOWN: &f&l2 Seconds"
+  - "&7 "
+  - "&7&m---------------------------------"
+  - "&a&lBUY PRICE: &f$8,000,000"
+  - "&7&m---------------------------------"
+  gui-item: bone
+  gui-slot: 16
+  price: 8000000
+#
+# End configuration for sand-wand-8
+# -------------------------------------------------------------
+
+# -------------------------------------------------------------
+# Start configuration for sand-wand-9
+#
+sand-wand-9:
+  name: "&c&lSAND WAND &7(&4Tier 9&7)"
+  unique: "&eDemolish IX"
+  infinite-use-id: "INFINITE"
+  uses-line-id: "&6&lUSES:"
+  uses-id: "&e&l%uses%"
+  lowest-break-level: 1
+  cooldown: 1
+  enchantments:
+  - DURABILITY-3
+  - FIRE_ASPECT-5
+  lore:
+  - "&eDemolish IX"
+  - "&7 "
+  - "&6&lUSES: &e&l%uses%"
+  - "&7 "
+  - "&7&oThis wand was manufactured to"
+  - "&7&oremove sand stacks, use it wisely..."
+  - "&7 "
+  - "&7&lCOOLDOWN: &f&l1 Seconds"
+#
+
+#
+sand-wand-9-gui:
+  name: "&c&lSAND WAND &7(&4Tier 9&7)"
+  unique: "&eDemolish IX"
+  uses: 9000
+  enabled: true
+  enchantments:
+  - DURABILITY-3
+  - FIRE_ASPECT-5
+  lore:
+  - "&eDemolish IX"
+  - "&7 "
+  - "&6&lUSES: &e&l%uses%"
+  - "&7 "
+  - "&7&oThis wand was manufactured to"
+  - "&7&oremove sand stacks, use it wisely..."
+  - "&7 "
+  - "&7&lCOOLDOWN: &f&l1 Seconds"
+  - "&7 "
+  - "&7&m---------------------------------"
+  - "&a&lBUY PRICE: &f$9,000,000"
+  - "&7&m---------------------------------"
+  gui-item: bone
+  gui-slot: 17
+  price: 9000000
+#
+# End configuration for sand-wand-9
+# -------------------------------------------------------------

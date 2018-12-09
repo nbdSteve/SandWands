@@ -1,0 +1,163 @@
+#
+# SandWands messages v3.0
+#
+# Message sent to the player when the type the /sw help command.
+# Requires premission: sand.help
+help:
+- "&7 "
+- "&f&lSandWands &7- &emade by &6&lnbdSteve"
+- "&7 "
+- "&3/sw give <player> <item> <level> <uses> <amount>"
+- "&7Give the target player their item with the &d&osandwand&7 enchantment."
+- "&7The player must be online and the level must be between 1-5."
+- "&7The <item> must be a valid &e&lMINECRAFT&r &7material, e.g. &fdiamond_hoe&7."
+- "&7The number of uses must be greater than 1."
+- "&7Specify an amount that is 1 or greater, if you put no amount it will not give you an item."
+- "&7Requires premission node: &fsand.give"
+- "&7 "
+- "&3/sw reload"
+- "&7Reload the config.yml file."
+- "&7Requires premission node: &fsand.reload"
+- "&7 "
+#
+
+#
+# Message sent to the player when they type the /sw reload command.
+# Requires permission: sand.reload
+reload:
+- "&7 "
+- "&f&lSandWands:"
+- "&a&lSUCCESS!&7 You just reloaded all of the configuration files."
+- "&7 "
+#
+
+#
+# Message sent to the player when they purchase a tool from the GUI menu.
+# Requires permission: sand.gui to view the GUI.
+purchase:
+- "&7 "
+- "&f&lSandWands:"
+- "&a&lSUCCESS!&7 Your new tool has been added to your inventory! &c$%cost%&7, has been taken from your account."
+- "&7 "
+#
+
+#
+# Message sent to the player when they open the GUI with /lw.
+# Requires permission: sand.gui to view the GUI.
+open-gui:
+- "&7 "
+- "&f&lSandWands:"
+- "&7Searching the universe for the &bSandWands&7 merchant..."
+- "&7 "
+#
+
+#
+# Message sent to the player when they type an invalid command.
+# No permission required.
+invalid-command:
+- "&7 "
+- "&f&lSandWands:"
+- "&c&lERROR!&7 The command you entered is &b&lINVALID&7 please see &e/lw help&7 for command help."
+- "&7 "
+#
+
+#
+# Message sent to the player when they type a command and don't have permission.
+# No permission required.
+no-permission:
+- "&7 "
+- "&f&lSandWands:"
+- "&c&lERROR!&7 You do not have permission to use that!"
+- "&7 "
+#
+
+#
+# Message sent to the player if they do not have permission to purchase the tool from the GUI.
+# No permission required.
+no-buy-permission:
+- "&7 "
+- "&f&lSandWands:"
+- "&c&lERROR!&7 You do not have permission to purchase that SandWand!"
+- "&7 "
+#
+
+#
+# Message sent to the player when they type a command and the player is invalid.
+# Command permission required.
+invalid-player:
+- "&7 "
+- "&f&lSandWands:"
+- "&c&lERROR!&7 The player who entered is not online."
+- "&7 "
+#
+
+#
+# Message sent to the player when they type a command and the amount is invalid.
+# Command permission required.
+invalid-amount:
+- "&7 "
+- "&f&lSandWands:"
+- "&c&lERROR!&7 The amount you entered is &b&lINVALID&7, make sure the amount is a positive integer greater than 0."
+- "&7 "
+#
+
+#
+# Message sent to the player when they type a command and the size of sand is invalid.
+# Command permission required.
+invalid-level:
+- "&7 "
+- "&f&lSandWands:"
+- "&c&lERROR!&7 The enchantment size you entered is &b&lINVALID&7, make sure the enchantment size is between 1 - 9."
+- "&7 "
+#
+
+#
+# Message sent to the player when they type a command and the number of uses is invalid.
+# Command permission required.
+invalid-uses:
+- "&7 "
+- "&f&lSandWands:"
+- "&c&lERROR!&7 The number of uses you entered is &b&lINVALID&7, make sure it is a positive integer."
+- "&7 "
+#
+
+#
+# Message sent to the player when their sand-wand runs out of uses (uses = 0).
+# No permission required, set this to nothing to remove the message.
+break:
+- "&7 "
+- "&f&lSandWands:"
+- "&7Your sand wand has run out of uses!"
+- "&7It has been &a&lRECYCLED&7 back to the server..."
+- "&7 "
+#
+
+#
+# Message sent to the player if they do not have enough money.
+# Requires permission: sand.gui to view the GUI.
+insufficient-funds:
+- "&7 "
+- "&f&lSandWands:"
+- "&c&lERROR!&7 You do not have enough money to buy that! You only have &c$%bal%&7 and that tool costs &c$%cost%&7."
+- "&7 "
+#
+
+#
+# Message sent to the player if they try to buy a tool and their inventory is full.
+# Requires permission: sand.gui to view the GUI.
+inventory-full:
+- "&7 "
+- "&f&lSandWands:"
+- "&c&lERROR!&7 Your inventory is full, free some space to buy the tool."
+- "&7 "
+#
+
+#
+# Message sent to the player when they try to use their sand wand when it is on cooldown.
+# No permission required, set this to nothing to remove the message.
+cooldown:
+- "&7 "
+- "&f&lSandWands:"
+- "&c&lERROR!&7 Your &fSandWand&7 is on &e&lCOOLDOWN!&7 It has &b&l%cooldown%&7 seconds remaining."
+- "&7 "
+#

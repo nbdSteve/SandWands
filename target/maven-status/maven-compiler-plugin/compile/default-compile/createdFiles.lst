@@ -1,0 +1,11 @@
+com\nbdsteve\sandwands\support\Factions.class
+com\nbdsteve\sandwands\file\LoadProvidedFiles$Files.class
+com\nbdsteve\sandwands\SandWands.class
+com\nbdsteve\sandwands\file\LoadProvidedFiles.class
+com\nbdsteve\sandwands\event\gui\GuiClick.class
+com\nbdsteve\sandwands\support\MassiveCore.class
+com\nbdsteve\sandwands\file\providedfile\GenerateProvidedFile.class
+com\nbdsteve\sandwands\event\BlockClick.class
+com\nbdsteve\sandwands\gui\SandGui.class
+com\nbdsteve\sandwands\command\SandCommand.class
+com\nbdsteve\sandwands\support\WorldGuard.class

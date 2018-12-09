@@ -1,0 +1,12 @@
+name: SandWands
+author: nbdSteve
+version: 3.0
+main: com.nbdsteve.sandwands.SandWands
+api-version: 1.13
+commands:
+  sw:
+    usage: /<command>
+    description: Type '/sw help' for command help.
+  sand:
+    usage: /<command>
+    description: Type '/sw help' for command help.
