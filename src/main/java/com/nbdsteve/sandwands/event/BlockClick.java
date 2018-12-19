@@ -50,36 +50,20 @@ public class BlockClick implements Listener {
                 if (p.getInventory().getItemInHand().getItemMeta().hasLore()) {
                     ItemMeta toolMeta = p.getInventory().getItemInHand().getItemMeta();
                     List<String> toolLore = toolMeta.getLore();
-                    String toolType;
+                    String toolType = null;
                     //Get the level of sand from the tool lore
-                    if (toolLore.contains(
-                            ChatColor.translateAlternateColorCodes('&', lpf.getSand().getString("sand-wand-1.unique")))) {
-                        toolType = "sand-wand-1";
-                    } else if (toolLore.contains(
-                            ChatColor.translateAlternateColorCodes('&', lpf.getSand().getString("sand-wand-2.unique")))) {
-                        toolType = "sand-wand-2";
-                    } else if (toolLore.contains(
-                            ChatColor.translateAlternateColorCodes('&', lpf.getSand().getString("sand-wand-3.unique")))) {
-                        toolType = "sand-wand-3";
-                    } else if (toolLore.contains(
-                            ChatColor.translateAlternateColorCodes('&', lpf.getSand().getString("sand-wand-4.unique")))) {
-                        toolType = "sand-wand-4";
-                    } else if (toolLore.contains(
-                            ChatColor.translateAlternateColorCodes('&', lpf.getSand().getString("sand-wand-5.unique")))) {
-                        toolType = "sand-wand-5";
-                    } else if (toolLore.contains(
-                            ChatColor.translateAlternateColorCodes('&', lpf.getSand().getString("sand-wand-6.unique")))) {
-                        toolType = "sand-wand-6";
-                    } else if (toolLore.contains(
-                            ChatColor.translateAlternateColorCodes('&', lpf.getSand().getString("sand-wand-7.unique")))) {
-                        toolType = "sand-wand-7";
-                    } else if (toolLore.contains(
-                            ChatColor.translateAlternateColorCodes('&', lpf.getSand().getString("sand-wand-8.unique")))) {
-                        toolType = "sand-wand-8";
-                    } else if (toolLore.contains(
-                            ChatColor.translateAlternateColorCodes('&', lpf.getSand().getString("sand-wand-9.unique")))) {
-                        toolType = "sand-wand-9";
-                    } else {
+                    for (int i = 1; i < 10; i++) {
+                        String tool = "sand-wand-" + String.valueOf(i);
+                        try {
+                            lpf.getSand().getString(tool + ".unique");
+                            if (toolLore.contains(ChatColor.translateAlternateColorCodes('&', lpf.getSand().getString(tool + ".unique")))) {
+                                toolType = tool;
+                            }
+                        } catch (Exception ex) {
+                            //Do nothing, this tool isn't active or doesn't exist
+                        }
+                    }
+                    if (toolType == null) {
                         return;
                     }
                     boolean wg = false;
@@ -192,6 +176,12 @@ public class BlockClick implements Listener {
         }
     }
 
+    /**
+     * Method to check whether the block should be broken or not.
+     *
+     * @param blockToCheck the block being checked
+     * @return boolean, true if the block should be broken
+     */
     private boolean checkBlock(String blockToCheck) {
         List<String> blocks = new ArrayList<>();
         if (lpf.getConfig().getBoolean("enable-block-whitelist")) {

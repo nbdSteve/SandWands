@@ -6,7 +6,7 @@
 
     <groupId>com.nbdsteve</groupId>
     <artifactId>SandWands</artifactId>
-    <version>3.0</version>
+    <version>3.1.2</version>
     <packaging>jar</packaging>
 
     <name>SandWands</name>

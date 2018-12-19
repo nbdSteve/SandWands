@@ -1,6 +1,6 @@
 name: SandWands
 author: nbdSteve
-version: 3.0
+version: 3.1.2
 main: com.nbdsteve.sandwands.SandWands
 api-version: 1.13
 commands:

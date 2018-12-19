@@ -41,67 +41,36 @@ public class GuiClick implements Listener {
         //Store the player
         Player p = (Player) e.getWhoClicked();
         //Store the inventory
-        Inventory i = e.getClickedInventory();
+        Inventory inven = e.getClickedInventory();
         //Check that the inventory clicked was this inventory
-        if (i != null) {
-            if (i.getName()
+        if (inven != null) {
+            if (inven.getName()
                     .equals(ChatColor.translateAlternateColorCodes('&', lpf.getConfig().getString("gui.name")))) {
                 e.setCancelled(true);
                 //Store the details about the clicked item
                 ItemMeta toolMeta = e.getCurrentItem().getItemMeta();
                 List<String> toolLore = toolMeta.getLore();
-                String toolType;
-                String ttool;
-                String perm;
+                String toolType = null;
+                String ttool = null;
+                String perm = null;
                 NumberFormat df = new DecimalFormat("#,###");
                 //Check to see if it is a valid tool
                 if (!toolMeta.getDisplayName().equalsIgnoreCase(" ")) {
-                    if (toolLore.contains(ChatColor.translateAlternateColorCodes('&',
-                            lpf.getSand().getString("sand-wand-1-gui.unique")))) {
-                        perm = "1";
-                        ttool = "sand-wand-1";
-                        toolType = "sand-wand-1-gui";
-                    } else if (toolLore.contains(ChatColor.translateAlternateColorCodes('&',
-                            lpf.getSand().getString("sand-wand-2-gui.unique")))) {
-                        perm = "2";
-                        ttool = "sand-wand-2";
-                        toolType = "sand-wand-2-gui";
-                    } else if (toolLore.contains(ChatColor.translateAlternateColorCodes('&',
-                            lpf.getSand().getString("sand-wand-3-gui.unique")))) {
-                        perm = "3";
-                        ttool = "sand-wand-3";
-                        toolType = "sand-wand-3-gui";
-                    } else if (toolLore.contains(ChatColor.translateAlternateColorCodes('&',
-                            lpf.getSand().getString("sand-wand-4-gui.unique")))) {
-                        perm = "4";
-                        ttool = "sand-wand-4";
-                        toolType = "sand-wand-4-gui";
-                    } else if (toolLore.contains(ChatColor.translateAlternateColorCodes('&',
-                            lpf.getSand().getString("sand-wand-5-gui.unique")))) {
-                        perm = "5";
-                        ttool = "sand-wand-5";
-                        toolType = "sand-wand-5-gui";
-                    } else if (toolLore.contains(ChatColor.translateAlternateColorCodes('&',
-                            lpf.getSand().getString("sand-wand-6-gui.unique")))) {
-                        perm = "6";
-                        ttool = "sand-wand-6";
-                        toolType = "sand-wand-6-gui";
-                    } else if (toolLore.contains(ChatColor.translateAlternateColorCodes('&',
-                            lpf.getSand().getString("sand-wand-7-gui.unique")))) {
-                        perm = "7";
-                        ttool = "sand-wand-7";
-                        toolType = "sand-wand-7-gui";
-                    } else if (toolLore.contains(ChatColor.translateAlternateColorCodes('&',
-                            lpf.getSand().getString("sand-wand-8-gui.unique")))) {
-                        perm = "8";
-                        ttool = "sand-wand-8";
-                        toolType = "sand-wand-8-gui";
-                    } else if (toolLore.contains(ChatColor.translateAlternateColorCodes('&',
-                            lpf.getSand().getString("sand-wand-9-gui.unique")))) {
-                        perm = "9";
-                        ttool = "sand-wand-9";
-                        toolType = "sand-wand-9-gui";
-                    } else {
+                    for (int i = 1; i < 10; i++) {
+                        String tool = "sand-wand-" + String.valueOf(i) + "-gui";
+                        String t = "sand-wand-" + String.valueOf(i);
+                        try {
+                            lpf.getSand().getString(tool + ".unique");
+                            if (toolLore.contains(ChatColor.translateAlternateColorCodes('&', lpf.getSand().getString(tool + ".unique")))) {
+                                ttool = t;
+                                perm = String.valueOf(i);
+                                toolType = tool;
+                            }
+                        } catch (Exception ex) {
+                            //Do nothing, this tool isn't active or doesn't exist
+                        }
+                    }
+                    if (toolType == null) {
                         return;
                     }
                     //Check that the player has permission to buy that tool

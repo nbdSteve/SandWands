@@ -2,67 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84d6488e-ade3-4834-8a4a-3e319441d4a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_21_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_13_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spigotmc_spigot_api_1_13_2_R0_1_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SandWands.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/SandWands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/command/SandCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/event/BlockClick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/event/gui/GuiClick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/file/LoadProvidedFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/file/providedfile/GenerateProvidedFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/gui/SandGui.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/support/Factions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/support/MassiveCore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/support/WorldGuard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/lib/Factions.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/lib/MassiveCore.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/lib/SavageFactions.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/lib/Vault.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/lib/spigot-1.13.1-R0.1-SNAPSHOT-b1918.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/lib/spigot-api-1.13.1-R0.1-SNAPSHOT-shaded-b1918.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/lib/worldedit-bukkit-6.1.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/lib/worldguard-bukkit-6.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/messages.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sand.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SandWands-3.0-shaded.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/nbdsteve/sandwands/SandWands.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/nbdsteve/sandwands/command/SandCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/nbdsteve/sandwands/event/BlockClick.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/nbdsteve/sandwands/event/gui/GuiClick.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/nbdsteve/sandwands/file/LoadProvidedFiles$Files.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/nbdsteve/sandwands/file/LoadProvidedFiles.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/nbdsteve/sandwands/file/providedfile/GenerateProvidedFile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/nbdsteve/sandwands/gui/SandGui.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/nbdsteve/sandwands/support/Factions.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/nbdsteve/sandwands/support/MassiveCore.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/nbdsteve/sandwands/support/WorldGuard.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/messages.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sand.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/original-SandWands-3.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_13_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_13_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_spigotmc_spigot_api_1_13_2_R0_1_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spigotmc_spigot_api_1_13_2_R0_1_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/event/BlockClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/event/BlockClick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/event/gui/GuiClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/event/gui/GuiClick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/messages.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sand.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sand.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nbdsteve/sandwands/event/BlockClick.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nbdsteve/sandwands/event/BlockClick.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nbdsteve/sandwands/event/gui/GuiClick.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nbdsteve/sandwands/event/gui/GuiClick.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -107,25 +62,52 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="2121013748">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="263" />
+          <entry key="xml" value="3" />
+          <entry key="yml" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="263" />
+          <entry key="XML" value="3" />
+          <entry key="YAML" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+          <entry key="xml" value="1" />
+          <entry key="yml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+          <entry key="XML" value="1" />
+          <entry key="YAML" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/SandWands.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#992#993#0" expanded="true" />
-                <element signature="e#1065#1066#0" expanded="true" />
-                <element signature="e#1665#1666#0" expanded="true" />
-                <element signature="e#1691#1692#0" expanded="true" />
-                <element signature="e#1807#1808#0" expanded="true" />
-                <element signature="e#1834#1835#0" expanded="true" />
-                <element signature="e#1881#1882#0" expanded="true" />
-                <element signature="e#1911#1912#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="20">
+              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -133,8 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/messages.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="120" column="7" lean-forward="true" selection-start-line="120" selection-start-column="7" selection-end-line="120" selection-end-column="7" />
+            <state relative-caret-position="20">
+              <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -142,50 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/sand.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="521" column="35" selection-start-line="521" selection-start-column="35" selection-end-line="521" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/event/BlockClick.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="737">
-              <caret line="140" column="40" selection-start-line="140" selection-start-column="40" selection-end-line="140" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/gui/SandGui.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-220">
-              <caret line="32" column="74" selection-start-line="32" selection-start-column="74" selection-end-line="32" selection-end-column="74" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <state relative-caret-position="20">
+              <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -212,20 +152,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/support/Factions.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/support/MassiveCore.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/support/WorldGuard.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/file/LoadProvidedFiles.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/file/providedfile/GenerateProvidedFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/command/SandCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/event/gui/GuiClick.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/gui/SandGui.java" />
         <option value="$PROJECT_DIR$/src/main/resources/plugin.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/SandWands.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/event/gui/GuiClick.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/event/BlockClick.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/messages.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/sand.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/messages.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/config.yml" />
       </list>
     </option>
@@ -256,10 +196,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -269,6 +209,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -316,18 +259,27 @@
               <item name="SandWands" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sandwands" type="462c0819:PsiDirectoryNode" />
+              <item name="event" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SandWands" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SandWands" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544319211786" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -383,47 +335,40 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25704697" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32952183" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" visible="true" weight="0.12899786" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="7" visible="true" weight="0.12885906" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="108" column="49" selection-start-line="108" selection-start-column="49" selection-end-line="108" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/support/Factions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -458,11 +403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-626">
           <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3466#3467#0" expanded="true" />
-            <element signature="e#3497#3498#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -470,16 +410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/event/gui/GuiClick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -498,6 +428,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/gui/SandGui.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-220">
@@ -508,59 +445,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/SandWands.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        <state relative-caret-position="420">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#992#993#0" expanded="true" />
-            <element signature="e#1065#1066#0" expanded="true" />
-            <element signature="e#1665#1666#0" expanded="true" />
-            <element signature="e#1691#1692#0" expanded="true" />
-            <element signature="e#1807#1808#0" expanded="true" />
-            <element signature="e#1834#1835#0" expanded="true" />
-            <element signature="e#1881#1882#0" expanded="true" />
-            <element signature="e#1911#1912#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/event/BlockClick.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="737">
-          <caret line="140" column="40" selection-start-line="140" selection-start-column="40" selection-end-line="140" selection-end-column="40" />
+        <state relative-caret-position="381">
+          <caret line="182" column="58" selection-start-line="182" selection-start-column="58" selection-end-line="182" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/messages.yml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbdsteve/sandwands/event/gui/GuiClick.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="120" column="7" lean-forward="true" selection-start-line="120" selection-start-column="7" selection-end-line="120" selection-end-column="7" />
+        <state relative-caret-position="20">
+          <caret line="65" column="57" selection-start-line="65" selection-start-column="57" selection-end-line="65" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/sand.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="521" column="35" selection-start-line="521" selection-start-column="35" selection-end-line="521" selection-end-column="35" />
+        <state relative-caret-position="20">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        <state relative-caret-position="20">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
         </state>
       </provider>
     </entry>
