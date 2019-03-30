@@ -6,7 +6,7 @@
 
     <groupId>dev.nuer</groupId>
     <artifactId>SandWands</artifactId>
-    <version>3.1.4</version>
+    <version>3.1.4-[MC-1.13+]</version>
     <packaging>jar</packaging>
 
     <name>SandWands</name>
@@ -96,9 +96,21 @@
             <systemPath>${project.basedir}/src/main/lib/SavageFactions.jar</systemPath>
         </dependency>
         <dependency>
+            <groupId>com.sk89q.worldguard</groupId>
+            <artifactId>worldguard-core</artifactId>
+            <version>7.0.0-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
             <groupId>com.sk89q.worldedit</groupId>
             <artifactId>worldedit-bukkit</artifactId>
-            <version>6.1</version>
+            <version>7.0.0-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.sk89q.worldguard</groupId>
+            <artifactId>worldguard-legacy</artifactId>
+            <version>7.0.0-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -107,12 +119,6 @@
             <version>1.7.1</version>
             <scope>system</scope>
             <systemPath>${project.basedir}/src/main/lib/Vault.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>com.sk89q.worldguard</groupId>
-            <artifactId>worldguard-legacy</artifactId>
-            <version>6.2</version>
-            <scope>provided</scope>
         </dependency>
     </dependencies>
 </project>

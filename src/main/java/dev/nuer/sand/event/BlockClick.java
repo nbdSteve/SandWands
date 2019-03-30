@@ -72,7 +72,8 @@ public class BlockClick implements Listener {
                     //Figure out which plugins are being used and what to support
                     if (Bukkit.getPluginManager().getPlugin("WorldGuard") != null) {
                         wg = true;
-                        if (!WorldGuard.allowsBreak(e.getClickedBlock().getLocation())) {
+                        if (!WorldGuard.allowsBreak(e.getClickedBlock().getX(),
+                                e.getClickedBlock().getY(), e.getClickedBlock().getZ(), p)) {
                             e.setCancelled(true);
                             return;
                         }
@@ -122,7 +123,8 @@ public class BlockClick implements Listener {
                         //Remove the blocks from the top to the bottom
                         while (y >= lpf.getSand().getInt(toolType + ".lowest-break-level")) {
                             String current = p.getWorld().getBlockAt(x, y, z).getType().toString();
-                            if (wg && !WorldGuard.allowsBreak(e.getClickedBlock().getRelative(x, y, z).getLocation())) {
+                            Block b = e.getClickedBlock().getRelative(x, y, z);
+                            if (wg && !WorldGuard.allowsBreak(b.getX(), b.getY(), b.getZ(), p)) {
                                 y--;
                             } else if (fac && !Factions.canBreakBlock(p, e.getClickedBlock().getRelative(x, y, z))) {
                                 y--;
