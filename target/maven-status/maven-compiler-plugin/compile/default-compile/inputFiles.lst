@@ -1,10 +1,12 @@
-C:\Users\sgood\OneDrive\Documents\Java\Plugins\SandWands\src\main\java\com\nbdsteve\sandwands\command\SandCommand.java
-C:\Users\sgood\OneDrive\Documents\Java\Plugins\SandWands\src\main\java\com\nbdsteve\sandwands\event\gui\GuiClick.java
-C:\Users\sgood\OneDrive\Documents\Java\Plugins\SandWands\src\main\java\com\nbdsteve\sandwands\support\Factions.java
-C:\Users\sgood\OneDrive\Documents\Java\Plugins\SandWands\src\main\java\com\nbdsteve\sandwands\SandWands.java
-C:\Users\sgood\OneDrive\Documents\Java\Plugins\SandWands\src\main\java\com\nbdsteve\sandwands\support\WorldGuard.java
-C:\Users\sgood\OneDrive\Documents\Java\Plugins\SandWands\src\main\java\com\nbdsteve\sandwands\support\MassiveCore.java
-C:\Users\sgood\OneDrive\Documents\Java\Plugins\SandWands\src\main\java\com\nbdsteve\sandwands\file\LoadProvidedFiles.java
-C:\Users\sgood\OneDrive\Documents\Java\Plugins\SandWands\src\main\java\com\nbdsteve\sandwands\event\BlockClick.java
-C:\Users\sgood\OneDrive\Documents\Java\Plugins\SandWands\src\main\java\com\nbdsteve\sandwands\gui\SandGui.java
-C:\Users\sgood\OneDrive\Documents\Java\Plugins\SandWands\src\main\java\com\nbdsteve\sandwands\file\providedfile\GenerateProvidedFile.java
+C:\Users\deeb0\Desktop\minecraft\Intellj Plugins\SandWands\src\main\java\dev\nuer\sand\support\MassiveCore.java
+C:\Users\deeb0\Desktop\minecraft\Intellj Plugins\SandWands\src\main\java\dev\nuer\sand\support\WorldGuard.java
+C:\Users\deeb0\Desktop\minecraft\Intellj Plugins\SandWands\src\main\java\dev\nuer\sand\event\gui\GuiClick.java
+C:\Users\deeb0\Desktop\minecraft\Intellj Plugins\SandWands\src\main\java\dev\nuer\sand\file\providedfile\GenerateProvidedFile.java
+C:\Users\deeb0\Desktop\minecraft\Intellj Plugins\SandWands\src\main\java\dev\nuer\sand\event\CheckBreakableBlock.java
+C:\Users\deeb0\Desktop\minecraft\Intellj Plugins\SandWands\src\main\java\dev\nuer\sand\support\Factions.java
+C:\Users\deeb0\Desktop\minecraft\Intellj Plugins\SandWands\src\main\java\dev\nuer\sand\event\BlockRemovalMethod.java
+C:\Users\deeb0\Desktop\minecraft\Intellj Plugins\SandWands\src\main\java\dev\nuer\sand\file\LoadProvidedFiles.java
+C:\Users\deeb0\Desktop\minecraft\Intellj Plugins\SandWands\src\main\java\dev\nuer\sand\SandWands.java
+C:\Users\deeb0\Desktop\minecraft\Intellj Plugins\SandWands\src\main\java\dev\nuer\sand\command\SandCommand.java
+C:\Users\deeb0\Desktop\minecraft\Intellj Plugins\SandWands\src\main\java\dev\nuer\sand\event\BlockClick.java
+C:\Users\deeb0\Desktop\minecraft\Intellj Plugins\SandWands\src\main\java\dev\nuer\sand\gui\SandGui.java

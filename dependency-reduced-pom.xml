@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.nbdsteve</groupId>
+  <groupId>dev.nuer</groupId>
   <artifactId>SandWands</artifactId>
   <name>SandWands</name>
-  <version>3.1.2</version>
+  <version>3.1.4</version>
   <build>
     <defaultGoal>clean package</defaultGoal>
     <resources>
@@ -48,6 +48,10 @@
       <id>sonatype</id>
       <url>https://oss.sonatype.org/content/groups/public/</url>
     </repository>
+    <repository>
+      <id>sk89q-repo</id>
+      <url>http://maven.sk89q.com/repo/</url>
+    </repository>
   </repositories>
   <dependencies>
     <dependency>
@@ -73,14 +77,44 @@
           <groupId>com.google.code.gson</groupId>
         </exclusion>
         <exclusion>
-          <artifactId>snakeyaml</artifactId>
-          <groupId>org.yaml</groupId>
-        </exclusion>
-        <exclusion>
           <artifactId>bungeecord-chat</artifactId>
           <groupId>net.md-5</groupId>
         </exclusion>
+        <exclusion>
+          <artifactId>snakeyaml</artifactId>
+          <groupId>org.yaml</groupId>
+        </exclusion>
       </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.sk89q.worldedit</groupId>
+      <artifactId>worldedit-bukkit</artifactId>
+      <version>6.1</version>
+      <scope>provided</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>dummypermscompat</artifactId>
+          <groupId>com.sk89q</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>bukkit</artifactId>
+          <groupId>org.bukkit</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>worldedit-core</artifactId>
+          <groupId>com.sk89q.worldedit</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>bukkit-classloader-check</artifactId>
+          <groupId>org.sk89q.bukkit</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.sk89q.worldguard</groupId>
+      <artifactId>worldguard-legacy</artifactId>
+      <version>6.2</version>
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.massivecraft</groupId>
@@ -102,20 +136,6 @@
       <version>1.4-RC-2</version>
       <scope>system</scope>
       <systemPath>${project.basedir}/src/main/lib/SavageFactions.jar</systemPath>
-    </dependency>
-    <dependency>
-      <groupId>com.sk89q.worldguard</groupId>
-      <artifactId>worldguard-bukkit</artifactId>
-      <version>6.2.2</version>
-      <scope>system</scope>
-      <systemPath>${project.basedir}/src/main/lib/worldguard-bukkit-6.2.2.jar</systemPath>
-    </dependency>
-    <dependency>
-      <groupId>com.sk89q.worldedit</groupId>
-      <artifactId>worldedit-bukkit</artifactId>
-      <version>6.1.9</version>
-      <scope>system</scope>
-      <systemPath>${project.basedir}/src/main/lib/worldedit-bukkit-6.1.9.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>net.milkbowl.vault</groupId>

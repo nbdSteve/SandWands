@@ -1,7 +1,7 @@
 name: SandWands
 author: nbdSteve
 version: ${project.version}
-main: com.nbdsteve.sandwands.SandWands
+main: dev.nuer.sand.SandWands
 api-version: 1.13
 commands:
   sw:

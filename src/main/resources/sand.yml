@@ -1,5 +1,5 @@
 #
-# SandWands sand.yml v3.1.2
+# SandWands sand.yml v3.1.4
 #
 
 # The list of blocks that will be broken by the sand wands.
@@ -33,6 +33,10 @@ sand-wand-1:
   #
   # Cooldown for the tool in seconds, set it to -1 to disable the cooldown.
   cooldown: 9
+  #
+  # This is delay between the blocks being broken (in ticks), the
+  # higher this is the longer it will take the remove the sand stack.
+  break-delay: 9
   #
   # Enchantments that will be applied to the tool with the /sw give command
   # IMPORTANT: make sure to use these enchantment names https://docs.oc.tc/reference/enchantments (vanilla names may not work!).
@@ -101,6 +105,7 @@ sand-wand-2:
   uses-id: "&e&l%uses%"
   lowest-break-level: 1
   cooldown: 8
+  break-delay: 8
   enchantments:
   - DURABILITY-3
   - FIRE_ASPECT-5
@@ -155,6 +160,7 @@ sand-wand-3:
   uses-id: "&e&l%uses%"
   lowest-break-level: 1
   cooldown: 7
+  break-delay: 7
   enchantments:
   - DURABILITY-3
   - FIRE_ASPECT-5
@@ -209,6 +215,7 @@ sand-wand-4:
   uses-id: "&e&l%uses%"
   lowest-break-level: 1
   cooldown: 6
+  break-delay: 6
   enchantments:
   - DURABILITY-3
   - FIRE_ASPECT-5
@@ -263,6 +270,7 @@ sand-wand-5:
   uses-id: "&e&l%uses%"
   lowest-break-level: 1
   cooldown: 5
+  break-delay: 5
   enchantments:
   - DURABILITY-3
   - FIRE_ASPECT-5
@@ -317,6 +325,7 @@ sand-wand-6:
   uses-id: "&e&l%uses%"
   lowest-break-level: 1
   cooldown: 4
+  break-delay: 4
   enchantments:
   - DURABILITY-3
   - FIRE_ASPECT-5
@@ -371,6 +380,7 @@ sand-wand-7:
   uses-id: "&e&l%uses%"
   lowest-break-level: 1
   cooldown: 3
+  break-delay: 3
   enchantments:
   - DURABILITY-3
   - FIRE_ASPECT-5
@@ -425,6 +435,7 @@ sand-wand-8:
   uses-id: "&e&l%uses%"
   lowest-break-level: 1
   cooldown: 2
+  break-delay: 2
   enchantments:
   - DURABILITY-3
   - FIRE_ASPECT-5
@@ -479,6 +490,7 @@ sand-wand-9:
   uses-id: "&e&l%uses%"
   lowest-break-level: 1
   cooldown: 1
+  break-delay: 1
   enchantments:
   - DURABILITY-3
   - FIRE_ASPECT-5
