@@ -43,8 +43,8 @@ public class BlockRemovalMethod {
                                 player.getInventory().addItem(drop);
                             }
                             blocksToRemove.get(index).setType(Material.AIR);
-                            index++;
                         }
+                        index++;
                     } else {
                         //If the block isn't sand / other it shouldn't be removed
                         this.cancel();
